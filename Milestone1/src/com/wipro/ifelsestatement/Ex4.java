@@ -6,11 +6,11 @@ public class Ex4 {
 			char b= args[1].charAt(0);
 			if(a>b)
 			{
-				System.out.println(a+","+b);
+				System.out.println(b+","+a);
 			}
 			else
 			{
-				System.out.println(b+","+a);
+				System.out.println(a+","+b);
 			}
 		}
 }
