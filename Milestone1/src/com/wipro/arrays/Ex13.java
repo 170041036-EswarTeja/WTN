@@ -9,13 +9,15 @@ public class Ex13 {
 				if(a[i]==6){
 					for(int j=a.length-1;j>=0;j--)
 					{
-						if(a[j]==7) {
+						if(a[j]==7)
+							break;
 						d=d+a[j];
-						}
 					}
+					break;
 				}
 				s=s+a[i];
 			}
-			System.out.println(s);
+		 System.out.println(s+d);
 		}
+
 }
